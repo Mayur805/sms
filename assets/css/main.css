@@ -878,10 +878,149 @@ button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
     color: #333333;
 }
 
-.cot-form {
+.contact-our-team .cot-form {
     margin-top: 0px;
 }
 
-.cot-form .fes-sms {
+.contact-our-team .cot-form .fes-sms {
     font-size: 30px;
+}
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{    LOgin Page   }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}*/
+
+.login {
+    height: 100vh;
+    background: linear-gradient(155.83deg, #EFF7FC 17.48%, #FFFFFF 79.58%);
+    margin: 0px;
+    position: relative;
+}
+
+.login .login-one {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.login .login-two {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.login .cot-form {
+    margin-top: 0px;
+    box-shadow: 0px 10px 31px rgba(92, 92, 92, 0.18);
+}
+
+.login .login-t {
+    font-weight: 600;
+    font-size: 26px;
+    color: #2C3F56;
+}
+
+.login .login-t span {
+    color: #017EFA;
+}
+
+.login .login-t2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555555;
+}
+
+.login .login-p {
+    margin-left: 10px;
+}
+
+
+/* Login and signup form */
+
+.rk-card-login .bu-form-input {
+    margin-top: 18px;
+}
+
+.rk-card-login {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 31px rgba(92, 92, 92, 0.18);
+    border-radius: 15px;
+    padding: 40px 35px 30px;
+}
+
+.rk-card-login .tab {
+    display: flex;
+    justify-content: center;
+}
+
+.rk-card-login .tab .btn_tb {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: max-content;
+    padding: 5px;
+}
+
+.rk-card-login .tab .btn_tb .tablinks {
+    padding: 8px 0;
+    width: 118px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #777777;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.rk-card-login .tab .btn_tb .tablinks.active {
+    background: #017EFA;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rk-card-login .tab .btn_tb .tablinks:focus {
+    outline: none;
+}
+
+.rk-card-login .login-btn-rk {
+    background: #017EFA;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: max-content;
+    padding: 8px 25px;
+    margin-top: 30px;
+}
+
+.rk-card-login .login-btn-rk:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.rk-card-login .fopsw {
+    margin-top: 15px;
+}
+
+.rk-card-login .fopsw a {
+    font-weight: 500;
+    font-size: 15px;
+    color: #777777;
+}
+
+@media (max-width: 992.98px) {
+    .login {
+        height: 100%;
+    }
+}
+
+@media (max-width: 352.98px) {
+    .rk-card-login .tab .btn_tb .tablinks {
+        width: 100px;
+    }
+    .rk-card-login {
+        padding: 40px 5px 30px;
+    }
 }
