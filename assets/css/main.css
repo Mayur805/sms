@@ -1024,3 +1024,183 @@ button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
         padding: 40px 5px 30px;
     }
 }
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{    API Page   }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}*/
+
+.api-page {
+    background: url(../img/api.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.api-page .secure {
+    font-size: 57px;
+}
+
+.api-page .dropdown {
+    margin-top: 31px;
+}
+
+.api-page .api-d-btn {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 31px rgba(92, 92, 92, 0.09);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+    padding: 15px 20px;
+}
+
+@media (max-width: 992.98px) {
+    .api-page .secure {
+        font-size: 47px;
+    }
+}
+
+.api-c-team .c-tem-t {
+    font-weight: 600;
+    font-size: 30px;
+    color: #0B1641;
+    text-align: center;
+}
+
+.card-sms {
+    padding: 35px 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 31px rgba(92, 92, 92, 0.18);
+    border-radius: 15px;
+    margin-top: 60px;
+    position: relative;
+    width: 18rem;
+}
+
+.card-sms .card-img {
+    position: absolute;
+    width: 64px;
+    height: 87px;
+    right: 0px;
+    top: 0px;
+}
+
+.card-sms .card-t {
+    font-weight: 400;
+    font-size: 22px;
+    color: #0B1641;
+}
+
+.card-sms .card-amount {
+    font-weight: 600;
+    font-size: 24px;
+    color: #017EFA;
+}
+
+.card-sms .card-inr a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+}
+
+.card-sms .card-t-a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+.card-sms .card-btn {
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #017EFA;
+    padding: 10px 15px;
+    margin-top: 25px;
+}
+
+.card-sms .card-p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.api-faqs {
+    margin-top: 170px;
+}
+
+
+/* Progressbar  */
+
+#progressBar {
+    cursor: pointer;
+    margin-top: 40px;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    /* transform: translate(-50%); */
+}
+
+#progressBar #progressBarSet {
+    position: absolute;
+    width: calc(100% - 20px * 2);
+    transform: translateX(3px);
+}
+
+#progressBar #progressBarSet #baseProgressBar,
+#progressBar #progressBarSet #currentProgressBar {
+    width: 100%;
+    /* height: 8; */
+    min-height: 5px;
+}
+
+#progressBar #progressBarSet #baseProgressBar {
+    background-color: #C4C4C4;
+}
+
+#progressBar #progressBarSet #currentProgressBar {
+    top: 0;
+    width: 0;
+    position: absolute;
+    /* background-color: red; */
+    background-color: #017EFA;
+    transition: all 0.25s ease-out;
+}
+
+#progressBar ul#nodeSet {
+    position: asbsolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    z-index: 1;
+}
+
+#progressBar ul#nodeSet li.bar-node {
+    text-decoration: none;
+    top: -16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid lightgray;
+    box-sizing: border-box;
+}
+
+#progressBar ul#nodeSet li.bar-node.node-active {
+    background-color: white;
+    border-color: #017EFA;
+    transition: all 0.25s ease-out;
+}
+
+#progressBar ul#nodeSet li.bar-node.node-complete {
+    background-color: #017EFA;
+    border: #017EFA;
+    transition: all 0.25s ease-out;
+}
