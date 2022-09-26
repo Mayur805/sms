@@ -102,7 +102,19 @@ a {
     }
 }
 
-@media (max-width: 425.98px) {
+
+/* Height */
+
+@media (max-height: 445.00px) {
+    .hero {
+        height: 100%;
+    }
+    .hero-col {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 768.00px) {
     .hero {
         height: 100%;
     }
@@ -358,6 +370,10 @@ a {
 button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
     transform: rotate(180deg);
     transition: ease-in-out 0.3s;
+}
+
+.card.faqs-card {
+    border: none;
 }
 
 .fes-sms-p {
@@ -752,6 +768,7 @@ button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
 }
 
 .faq-hero .faq-search {
+    border: none;
     background: #FFFFFF;
     box-shadow: 0px 0px 31px rgba(92, 92, 92, 0.09);
     border-radius: 10px;
@@ -840,7 +857,9 @@ button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{    contact-us Page   }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}*/
 
 .contact-us-page {
-    position: relative;
+    /* background-image: url("../img/cuate1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
 
 .contact-page-img {
