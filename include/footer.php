@@ -34,12 +34,19 @@
                 <a href="" class="footer-link">FAQs</a>
             </div>
         </div>
-        <hr class="footer-hr">
-        <div class="d-md-flex justify-content-between">
+
+    </div>
+    <hr class="footer-hr">
+    <div class="container">
+        <div class="row justify-content-between">
             <div class="footer-last">© 2021, Design & Developed by Atik Gohel </div>
-            <div class="footer-last back-top">Back to top</div>
+            <div class="footer-last back-top ml-5"><img src="assets/img/coolicon.svg" alt="" class="img-fluid"> Back to top </div>
         </div>
     </div>
+    <!-- <div class="d-md-flex justify-content-center">
+        <div class="footer-last">© 2021, Design & Developed by Atik Gohel </div>
+        <div class="footer-last back-top ml-5">Back to top</div>
+    </div> -->
 </footer>
 
 
@@ -51,7 +58,14 @@
 <script src="assets/js/jquery.slim.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
-
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 300,
+        duration: 1000,
+        mirror: true, 
+    });
+</script>
 </body>
 
 </html>

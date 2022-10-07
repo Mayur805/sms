@@ -1223,3 +1223,43 @@ button.btn.faq-btn.d-flex.justify-content-between[aria-expanded="true"] img {
     border: #017EFA;
     transition: all 0.25s ease-out;
 }
+
+
+/* Slider */
+
+.carousel-indicators {
+    bottom: -40px;
+    position: absolute;
+    background: green;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.carousel-indicators li {
+    background-color: #c4c4c4;
+}
+
+.slide-prev {
+    /* position: absolute; */
+    margin-top: 61px;
+    cursor: pointer;
+    bottom: 100px;
+    /* left: 0px; */
+}
+
+.slide-next {
+    /* position: absolute; */
+    cursor: pointer;
+    bottom: 100px;
+    margin-top: 61px;
+    /* right: 0px; */
+}
+
+@media (max-width: 767.98px) {
+    .slide-prev {
+        display: none;
+    }
+    .slide-next {
+        display: none;
+    }
+}
