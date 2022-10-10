@@ -7,8 +7,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6 d-flex align-items-center flex-column text-center">
-                <div class="secure">Secure and Robust APIs for SMS</div>
+            <div class="col-md-6 d-flex align-items-center flex-column text-center" >
+                <div id="typed-strings">
+                    <div class="secure">Secure and Robust APIs for SMS</div>
+                </div>
+                <span id="typed" class="secure"></span>
+
                 <form class="d-flex justify-content-between position-relative ">
                     <input class="form-control faq-search" type="text" placeholder="Search Job....." aria-label="Search">
                     <button class="btn serarch-faq-icon "><img src="assets/img/Search.svg" alt="" class=""></button>

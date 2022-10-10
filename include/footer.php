@@ -1,6 +1,6 @@
 <!-- Footer -->
 
-<footer class="footer">
+<footer class="footer" data-aos="fade-down">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex flex-column justify-content-end">
@@ -59,11 +59,105 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/aos.js"></script>
+<!-- Type Libreary -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- Anim js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
     AOS.init({
         offset: 300,
         duration: 1000,
-        mirror: true, 
+        mirror: true,
+    });
+</script>
+<script>
+    var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        backSpeed: 60,
+        typeSpeed: 60,
+        showCursor: false,
+        smartBackspace: false,
+        loop: true,
+        loopCount: Infinity,
+    });
+    // var typed = new Typed('#secure', {
+
+    //     strings: ['', 'Secure and Robust APIs for SMS'],
+    //     backSpeed: 60,
+    //     typeSpeed: 60,
+    //     showCursor: false,
+    //     smartBackspace: false,
+    //     loop: true,
+    //     loopCount: Infinity,
+    // });
+</script>
+<script>
+    anime({
+        targets: '.mobile-hero',
+        loop: true,
+        scale: {
+            value: 0.8,
+            duration: 1900,
+            delay: 800,
+            easing: 'easeInOutQuart',
+        },
+    });
+    anime({
+        targets: '.hero-sms',
+        loop: true,
+        direction: 'alternate',
+        duration: 400,
+        translateY: -20,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+    });
+    anime({
+        targets: '.hero-sms-two',
+        scale: {
+            value: 0.7,
+            duration: 1900,
+            delay: 800,
+            easing: 'easeInOutQuart',
+        },
+        loop: true,
+        direction: 'alternate',
+        duration: 900,
+        translateY: -70,
+        translateX: 40,
+        easing: 'cubicBezier(.5, .05, .1, .3)',
+    });
+    anime({
+        targets: '.hero-cartoon-1',
+        translateX: -22,
+        direction: 'alternate',
+        loop: true,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+    });
+    anime({
+        targets: '.hero-cartoon-2',
+        translateY: 30,
+        direction: 'alternate',
+        duration: 1000,
+        loop: true,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+    });
+    anime({
+        targets: '.hero-cartoon-3',
+        translateX: -40,
+        // translateY: 30,
+        direction: 'alternate',
+        duration: 1300,
+        loop: true,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+    });
+    anime({
+        targets: '.hero-cartoon-4',
+        translateX: 30,
+        translateY: 40,
+        direction: 'alternate',
+        duration: 1300,
+        loop: true,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
     });
 </script>
 </body>

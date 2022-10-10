@@ -5,12 +5,16 @@
 <?php include("include/header.php"); ?>
 <section class="hero d-flex align-items-center justify-content-center contact-us-page ">
     <div class="container">
-        <div class="row ">
+        <div class="row " >
             <img src="assets/img/background-complete.png" alt="" class="img-fluid contact-page-img">
 
             <div class="col-md-3"></div>
             <div class="col-md-6 d-flex align-items-center flex-column text-center ">
-                <div class="secure">Secure and Robust APIs for SMS</div>
+                <div id="typed-strings">
+                    <div class="secure">Secure and Robust APIs for SMS</div>
+                </div>
+                <span id="typed" class="secure"></span>
+
                 <img src="assets/img/Group 8675.png" alt="" class="img-fluid mt-3">
             </div>
             <div class="col-md-3"></div>
@@ -22,7 +26,7 @@
 <section class="contact-our-team">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="zoom-in">
                 <div class="cot-t">Contact our team</div>
                 <div class="cot-p">Contrary to popular belief, Lorem Ipsum is dmply random text. It has roots in a piece of classical Latin literature from 45 old.</div>
                 <div class="mt-4">
@@ -57,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mt-lg-0 mt-5">
+            <div class="col-lg-6 mt-lg-0 mt-5" data-aos="zoom-in">
                 <div class="bu-plus cot-form text-center">
                     <div class="fes-sms">Trusted by 30+<span> businesses</span> </div>
                     <div class="fes-sms-p">Skylane has been an extremely reliable communication service for us.</div>

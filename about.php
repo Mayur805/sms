@@ -10,9 +10,12 @@
         <img src="assets/img/paper-plane.png" alt="" class="img-fluid ab-img3">
         <img src="assets/img/paper-plane2.png" alt="" class="img-fluid ab-img4">
 
-        <div class="row">
+        <div class="row" data-aos="fade-right">
             <div class="col-md-6 d-flex flex-column justify-content-center hero-col">
-                <div class="secure">Secure and Robust APIs for SMS</div>
+                <div id="typed-strings">
+                    <div class="secure">Secure and Robust APIs for SMS</div>
+                </div>
+                <span id="typed" class="secure"></span>
                 <div class="secure-p">Secure and Robust APIs for sms whatsapp voice call and many more api free free free join now and enjoiy</div>
             </div>
             <div class="col-md-6 ">
@@ -25,10 +28,10 @@
 <section class="about-business">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="ab-t">About US</div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right">
                 <div class="vp">We Give We Give Best Idea For Idea Idea Idea Idea Idea Idea Your <span>Business SMS</span></div>
                 <div class="vp-p">Contrary to popular belief, Lorem Ipsum is dmply random text. It has roots in a piece of classical Latin literature from 45 old.Contrary to popular belief, Contrary to popular belief, Lorem Ipsum is dmply random text. It has roots in a
                     piece of classical Latin literature from 45 ols dmply random text. It has roots in a piece of classical Latin literature from</div>
@@ -36,7 +39,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- About-Features -->
 <section class="about-features">
@@ -48,21 +50,21 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-4 ">
+            <div class="col-md-4 " data-aos="flip-right">
                 <div class="text-center af-card">
                     <img src="assets/img/about-fe.png" alt="" class="img-fluid">
                     <div class="miss-call">Miss Call Service</div>
                     <div class="miss-call-p">Missed Call is a Lead Generation Service powered by i-Misscall to their Clients across India. This is a Very Useful Service in today’s IT and Digital marketing World. </div>
                 </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 " data-aos="zoom-in">
                 <div class="text-center af-card af-card-light  mt-md-0 mt-5">
                     <img src="assets/img/about-fe.png" alt="" class="img-fluid">
                     <div class="miss-call">Miss Call Service</div>
                     <div class="miss-call-p">Missed Call is a Lead Generation Service powered by i-Misscall to their Clients across India. This is a Very Useful Service in today’s IT and Digital marketing World. </div>
                 </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 " data-aos="flip-left">
                 <div class="text-center af-card mt-md-0 mt-5">
                     <img src="assets/img/about-fe.png" alt="" class="img-fluid">
                     <div class="miss-call">Miss Call Service</div>
@@ -78,7 +80,7 @@
 <section class="why-chooes-us">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 order-md-0 order-1 mt-md-0 mt-5">
+            <div class="col-md-6 order-md-0 order-1 mt-md-0 mt-5" data-aos="fade-right">
                 <div class="why">Why chooes us</div>
                 <div class="why-t">We Give Best Idea For Your <span> Business SMS</span></div>
                 <div class="why-p">Contrary to popular belief, Lorem Ipsum is dmply random text. It has roots in a piece of classical Latin literature from 45 old.Contrary to popular belief, Contrary to popular belief, Lorem Contrary to popular belief, Lorem Ipsum is dmply
@@ -87,7 +89,7 @@
 
             </div>
             <div class="col-md-6 d-flex align-items-center order-md-1">
-                <img src="assets/img/whycus.png" alt="" class="img-fluid mt-md-0 mt-5">
+                <img src="assets/img/whycus.png" alt="" class="img-fluid mt-md-0 mt-5" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             </div>
         </div>
     </div>
@@ -98,9 +100,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex align-items-center  ">
-                <img src="assets/img/whycus.png" alt="" class="img-fluid mt-md-0 ">
+                <img src="assets/img/whycus.png" alt="" class="img-fluid mt-md-0 " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             </div>
-            <div class="col-md-6  mt-md-0 mt-5">
+            <div class="col-md-6  mt-md-0 mt-5" data-aos="fade-right">
                 <div class="why">Why chooes us</div>
                 <div class="why-t">We Give Best Idea For Your <span> Business SMS</span></div>
                 <div class="why-p">Contrary to popular belief, Lorem Ipsum is dmply random text. It has roots in a piece of classical Latin literature from 45 old.Contrary to popular belief, Contrary to popular belief, Lorem Contrary to popular belief, Lorem Ipsum is dmply
@@ -126,7 +128,7 @@
             <div class="col-lg-2"></div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="zoom-in">
                 <div class="accordion" id="accordion_1">
                     <div class="card faqs-card">
                         <div class="card-header " id="heading_1">

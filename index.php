@@ -5,7 +5,10 @@
         <div class="row ">
             <div class="col-md-6 d-flex flex-column justify-content-center hero-col" data-aos="fade-right">
                 <div class="">Example</div>
-                <div class="secure">Secure and Robust APIs for SMS</div>
+                <div id="typed-strings">
+                    <div class="secure" id="secure">Secure and Robust APIs for SMS</div>
+                </div>
+                <span id="typed" class="secure"></span>
                 <div class="secure-p">Secure and Robust APIs for sms whatsapp voice call and many more api free free free join now and enjoiy</div>
                 <div class="hero-button">
                     <a href=" " class="btn hero-btn btn">Free Trail now</a>
@@ -13,8 +16,21 @@
                 </div>
                 <div class="secure-p">Get Free trail Credit card required </div>
             </div>
-            <div class="col-md-6 ">
-                <img src="assets/img/amico.png " alt=" " class="img-fluid mt-5 " data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="col-md-6 position-relative">
+                <div class="hero-bg position-relative d-lg-block d-none">
+                    <img src="assets/img/hero-bg.png " alt=" " class="img-fluid mt-5 amico">
+                    <img src="assets/img/hero-svg/mobile.svg" alt="" class="img-fluid mobile-hero">
+                    <img src="assets/img/hero-svg/mobile-part.svg" alt="" class="img-fluid mobile-hero-part">
+                    <img src="assets/img/hero-svg/hero-cartoon1.svg" alt="" class="img-fluid hero-cartoon-1">
+                    <img src="assets/img/hero-svg/hero-cartoon2.svg" alt="" class="img-fluid hero-cartoon-2">
+                    <img src="assets/img/hero-svg/hero-cartoon3.svg" alt="" class="img-fluid hero-cartoon-3">
+                    <img src="assets/img/hero-svg/hero-cartoon4.svg" alt="" class="img-fluid hero-cartoon-4">
+                    <img src="assets/img/hero-svg/sms.svg" alt="" class="img-fluid hero-sms">
+                    <img src="assets/img/hero-svg/sms.svg" alt="" class="img-fluid hero-sms-two">
+                </div>
+                <div class="d-lg-none d-block hero-bg">
+                    <img src="assets/img/amico.png" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
@@ -62,7 +78,7 @@
         <div class="row ">
             <div class="col-md-12 text-center">
                 <div class="fes ">Features</div>
-                <div class="fes-sms ">Secure and Robust APIs <span>for sms</span> </div>
+                <div class="fes-sms">Secure and Robust APIs <span>for sms</span> </div>
             </div>
         </div>
         <div class="row sms-in-row ">
@@ -411,8 +427,8 @@
 
 
 
-
-<section class="businesses-two">
+<!-- slider -->
+<section class="businesses-two" data-aos="zoom-in">
     <div class="container text-center">
         <div class="fes-sms ">Trusted by 30+<span> businesses</span> </div>
         <div class="row">
@@ -456,7 +472,6 @@
         </div>
     </div>
 </section>
-
 
 
 <?php include("include/footer.php "); ?>

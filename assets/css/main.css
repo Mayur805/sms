@@ -93,6 +93,55 @@ a {
     border: 1px solid #CFCFCF;
 }
 
+.hero-bg {
+    margin-top: 130px;
+}
+
+.mobile-hero {
+    position: absolute;
+    right: 11rem;
+    bottom: 7rem;
+}
+
+.mobile-hero-part {
+    position: absolute;
+    right: 7.5rem;
+    bottom: 14rem;
+}
+
+.hero-cartoon-1 {
+    position: absolute;
+    left: 52px;
+    bottom: 67px;
+}
+
+.hero-cartoon-2 {
+    position: absolute;
+    left: 122px;
+}
+
+.hero-cartoon-3 {
+    position: absolute;
+    right: 176px;
+    bottom: 39px;
+}
+
+.hero-cartoon-4 {
+    position: absolute;
+    right: 49px;
+}
+
+.hero-sms {
+    position: absolute;
+    right: 61px;
+    top: -71px;
+}
+
+.hero-sms-two {
+    position: absolute;
+    left: 55px;
+}
+
 @media (max-width: 991.98px) {
     .hero .secure {
         font-size: 35px;
