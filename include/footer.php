@@ -60,9 +60,9 @@
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/aos.js"></script>
 <!-- Type Libreary -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/js/type.js"></script>
 <!-- Anim js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/anime.js"></script>
 
 <script>
     AOS.init({
